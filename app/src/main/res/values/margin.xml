@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left_margin">15dp</dimen>
+    <dimen name="right_margin">15dp</dimen>
+    <dimen name="right_margin_chatbot">120dp</dimen>
+</resources>

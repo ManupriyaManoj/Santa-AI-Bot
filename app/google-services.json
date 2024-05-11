@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "719808721110",
+    "project_id": "santa-ai-bot",
+    "storage_bucket": "santa-ai-bot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719808721110:android:10aaf1fee1be3af91dd977",
+        "android_client_info": {
+          "package_name": "com.example.santaaibot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDJVLza_mD9VgFf2bJsthAR7fezG3OROg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

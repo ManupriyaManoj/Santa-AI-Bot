@@ -1,0 +1,443 @@
+{
+      "intents": [
+            {
+                  "name": "greeting",
+                  "patterns": [
+                        "hi",
+                        "hello",
+                        "hey"
+                  ],
+                  "responses": [
+                        "Hello!",
+                        "Hi there!",
+                        "Hey! How can I help you today?"
+                  ]
+            },
+            {
+                  "name": "about_bot",
+                  "patterns": [
+                        "what can you do",
+                        "who are you",
+                        "tell me about yourself"
+                  ],
+                  "responses": [
+                        "My name is Santa AI Bot. I can answer your questions and assist you with various tasks."
+                  ]
+            },
+            {
+                  "name": "indian_kanoon_info",
+                  "patterns": [
+                        "what is indian kanoon",
+                        "how to use indian kanoon",
+                        "what laws are available on indian kanoon",
+                        "how often is indian kanoon updated"
+                  ],
+                  "responses": [
+                        "Indian Kanoon is a website that provides access to Indian laws and legal rulings.",
+                        "You can use Indian Kanoon's search bar to look up specific laws or legal cases, or browse by category to find information on a particular topic.",
+                        "Indian Kanoon provides access to a wide range of laws and legal rulings, including constitutional law, criminal law, civil law, and more.",
+                        "Indian Kanoon is updated regularly to ensure that the information is current and accurate."
+                  ]
+            },
+            {
+                  "name": "indian_kanoon_fee",
+                  "patterns": [
+                        "is there a fee to use indian kanoon",
+                        "do I need to pay to access indian kanoon",
+                        "does indian kanoon cost money"
+                  ],
+                  "responses": [
+                        "No, Indian Kanoon is a free resource that is available to anyone who needs legal information."
+                  ]
+            },
+            {
+                  "name": "indian_kanoon_purpose",
+                  "patterns": [
+                        "what is the purpose of the indian kanoon website",
+                        "why was indian kanoon created",
+                        "what does indian kanoon aim to do"
+                  ],
+                  "responses": [
+                        "The purpose of the Indian Kanoon website is to provide access to Indian laws and legal rulings."
+                  ]
+            },
+            {
+                  "name": "indian_kanoon_users",
+                  "patterns": [
+                        "who can use the indian kanoon website",
+                        "is indian kanoon available to everyone",
+                        "can anyone access indian kanoon"
+                  ],
+                  "responses": [
+                        "Anyone who needs legal information can use the Indian Kanoon website. It is a free resource that is available to the public."
+                  ]
+            },
+            {
+                  "name": "indian_kanoon_search",
+                  "patterns": [
+                        "how can i search for a specific law on indian kanoon",
+                        "searching for laws on indian kanoon",
+                        "finding specific laws on indian kanoon"
+                  ],
+                  "responses": [
+                        "To search for a specific law on Indian Kanoon, you can use the search bar at the top of the page. You can enter the name of the law or a keyword related to the law, and the website will return a list of relevant results."
+                  ]
+            },
+            {
+                  "name": "indian_kanoon_browse",
+                  "patterns": [
+                        "can i browse by category on indian kanoon",
+                        "browsing laws by category on indian kanoon",
+                        "finding laws by category on indian kanoon"
+                  ],
+                  "responses": [
+                        "Yes, you can browse by category on Indian Kanoon. The website has a list of categories, such as constitutional law, criminal law, and civil law, that you can use to find information on a particular topic."
+                  ]
+            },
+            {
+                  "name": " Right to Privacy in the digital age",
+                  "patterns": [
+                        " Right to Privacy in the digital age",
+                        "What is the significance of the Right to Privacy in the digital age?",
+                        "Explain right to privacy in the digital age"
+                  ],
+                  "responses": [
+                        "The Right to Privacy has gained significant importance in the digital age due to concerns over data protection, surveillance, and intrusion into personal lives. Courts have recognized the Right to Privacy as an intrinsic part of the right to life and personal liberty under Article 21"
+                  ]
+            },
+            {
+                  "name": "Article 370",
+                  "patterns": [
+                        "article 370",
+                        "significance of Article 370",
+                        "What is the significance of Article 370 in the Indian Constitution?",
+                        "what is article 370"
+                  ],
+                  "responses": [
+                        "Article 370 grants special autonomous status to the state of Jammu and Kashmir, providing it with its own constitution and decision-making powers, except in matters of defense, foreign affairs, finance, and communications."
+                  ]
+            },
+            {
+              "name": "article that deals with the Right to Equality",
+                  "patterns":
+                  [
+                        "article that deals with the Right to Equality",
+                        "Which article of the Indian Constitution deals with the Right to Equality?"
+                  ],
+                  "responses": [
+                        "Article 14 to Article 18 of the Indian Constitution deal with the Right to Equality."
+                  ]
+            },
+            {
+                  "name": "Article 14",
+                  "patterns": [
+                        "what is article 14",
+                        "explain article 14",
+                        "what is the significance of article 14",
+                        "significance of article 14"
+                  ],
+                  "responses": [
+                        "This article states that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India. It ensures that every individual, regardless of their status or background, is subject to the same laws and has equal access to justice."
+                  ]
+            },
+            {
+                  "name": "Article 15",
+                  "patterns": [
+                        "what is article 15",
+                        "explain article 15",
+                        "what are the significance of article 15",
+                        "significance of article 15"
+                  ],
+                  "responses": [
+                        "Article 15 prohibits discrimination on grounds of religion, race, caste, sex, or place of birth. It empowers the State to make special provisions for the advancement of socially and educationally backward classes, Scheduled Castes, Scheduled Tribes, and women and children."
+                  ]
+            },
+            {
+                  "name": "Article 16",
+                  "patterns": [
+                        "what is article 16",
+                        "explain article 16",
+                        "what are the significance of article 16",
+                        "significance of article 16"
+                  ],
+                  "responses": [
+                        " Article 16 ensures equality of opportunity in matters of public employment. It prohibits discrimination in employment based on religion, race, caste, sex, descent, place of birth, residence, or any of them. The State is empowered to make provisions for reservation of appointments or posts in favor of any backward class of citizens, which, in the opinion of the State, is not adequately represented in the services under the State."
+                  ]
+            },
+            {
+                  "name": "Article 17",
+                  "patterns": [
+                        "what is article 17",
+                        "explain article 17",
+                        "what are the significance of article 17",
+                        "significance of article 17"
+                  ],
+                  "responses": [
+                        "Article 17 abolishes the practice of untouchability and prohibits its practice in any form. Untouchability was a social evil prevalent in India, where certain castes were considered 'untouchable' and subjected to discrimination and segregation. This article seeks to eradicate such discriminatory practices."
+                  ]
+            },
+            {
+                  "name": "Article 18",
+                  "patterns": [
+                        "what is article 18",
+                        "explain article 18",
+                        "what are the significance of article 18",
+                        "significance of article 18"
+                  ],
+                  "responses": [
+                        "Article 18 prohibits the State from conferring titles except military and academic distinctions. It prohibits citizens of India from accepting titles from any foreign state. The abolition of titles aims to promote equality among citizens by eliminating distinctions based on titles of nobility or honor."
+                  ]
+            },
+            {
+                  "name": "fundamental right suspention",
+                  "patterns": [
+                        "Can fundamental rights be suspended during an emergency?",
+                        "is it possible to suspend fundamental rights",
+                        "suspension of fundamental rights "
+                  ],
+                  "responses": [
+                        "Yes, during a proclamation of Emergency under Article 352, the fundamental rights guaranteed by Article 19 can be suspended, except those relating to the right to life and personal liberty."
+                  ]
+            },
+            {
+                  "name": "Comptroller and Auditor General (CAG)",
+                  "patterns": [
+                        "Comptroller and Auditor General (CAG)",
+                        "CAG",
+                        "role of the Comptroller and Auditor General (CAG) of India",
+                        "What is the role of the Comptroller and Auditor General (CAG) of India?"
+                  ],
+                  "responses": [
+                        "The Comptroller and Auditor General (CAG) of India is responsible for auditing the accounts of the Union and State governments. The CAG acts as a guardian of public funds, ensuring their proper utilization and preventing misuse. The reports of the CAG are laid before the Parliament and State Legislatures."
+                  ]
+            },
+            {
+                  "name": "Constitution of India",
+                  "patterns": [
+                        "Constitution of India",
+                        "What is the Constitution of India?",
+                        "explain constitution of India"
+                  ],
+                  "responses": [
+                        "The Constitution of India is the supreme law of the country, laying down the framework for governance, fundamental rights, directive principles, and the powers and duties of the government institutions."
+                  ]
+            },
+            {
+                  "name": "constitutional remedies",
+                  "patterns": [
+                        "constitutional remedies",
+                        "What are the constitutional remedies available for the enforcement of fundamental rights?",
+                        "explain constitutional remedies",
+                        "what are consittutional remedies",
+                        "article 32",
+                        "what is article 32",
+                        "explain article 32"
+                  ],
+                  "responses": [
+                        "Article 32 of the Indian Constitution provides for the right to constitutional remedies, which allows individuals to move the Supreme Court for the enforcement of their fundamental rights through writs such as habeas corpus, mandamus, prohibition, quo warranto, and certiorari."
+                  ]
+            },
+            {
+                  "name": "cultural and educational rights",
+                  "patterns": [
+                        "What do cultural and educational rights protect?",
+                        "How are cultural and language rights ensured in our constitution",
+                        "Can you explain the provisions for educational institutions by minorities?",
+                        "Why are cultural and educational rights important?",
+                        "How does the constitution safeguard cultural identity?"
+                  ],
+                  "responses": [
+                        "Cultural and educational rights protect the rights of citizens to conserve their culture, language, and script. They also provide for the establishment and administration of educational institutions by religious and linguistic minorities."
+                  ]
+            },
+            {
+                  "name": "Father of Indian Constitution",
+                  "patterns": [
+                        "Who is often referred to as the \"Father of the Indian Constitution\" and why?",
+                        "What role did Dr. B.R. Ambedkar play in the drafting of the Indian Constitution?",
+                        "Why is Dr. Ambedkar's contribution considered pivotal in the framing of the Indian Constitution?",
+                        "How did Dr. Ambedkar's background as a jurist and social reformer influence his approach to drafting the Constitution?",
+                        "What were some of the key principles advocated by Dr. Ambedkar during the drafting process of the Constitution?",
+                        "Can you explain the significance of Dr. Ambedkar's leadership in ensuring social justice and equality in the Indian Constitution?",
+                        "What lasting impact has Dr. Ambedkar's role as the Chairman of the Drafting Committee had on India's democratic institutions and governance?",
+                        "How does Dr. Ambedkar's legacy continue to resonate in India's legal and political landscape today?"
+                  ],
+                  "responses": [
+                        "Dr. B.R. Ambedkar, a prominent Indian jurist, social reformer, and politician, is widely recognized as the \"Father of the Indian Constitution\" due to his significant contributions to the drafting and framing of the Constitution of India. As the Chairman of the Drafting Committee of the Constituent Assembly, Dr. Ambedkar played a pivotal role in shaping the foundational document of independent India. He brought his expertise in law, his understanding of social justice, and his commitment to equality to the drafting process, ensuring that the Constitution reflected the aspirations and values of the newly independent nation. Dr. Ambedkar's leadership, vision, and dedication to the principles of democracy, equality, and justice were instrumental in the creation of a constitution that continues to guide India's democratic institutions and governance to this day."
+                  ]
+            },
+            {
+                  "name": "social justice and affirmative action",
+                  "patterns": [
+                        "How does the Indian Constitution promote social justice and affirmative action?",
+                        "What are the key affirmative action measures outlined in the Indian Constitution?",
+                        "Can you explain the concept of reservations in education, employment, and political representation in India?",
+                        "Which groups are specifically targeted by reservations in India's educational and employment sectors?",
+                        "How do reservations in political representation contribute to social inclusion and democratic participation?",
+                        "What role do reservations play in addressing historical discrimination and inequalities in Indian society?",
+                        "How effective have reservations been in uplifting disadvantaged groups in India?",
+                        "Are there any controversies or debates surrounding the implementation of reservations in India?"
+                  ],
+                  "responses": [
+                        "The Indian Constitution upholds social justice by implementing reservations in education, employment, and political representation for marginalized groups such as Scheduled Castes, Scheduled Tribes, and Other Backward Classes. These affirmative action measures are aimed at rectifying historical discrimination and empowering disadvantaged communities. Through reserved quotas in educational institutions, government jobs, and political bodies, the Constitution seeks to provide equal opportunities and foster inclusivity. These measures represent a commitment to addressing social inequalities and promoting the welfare of historically marginalized sections of society, contributing to the broader goal of building a more equitable and just nation."
+                  ]
+            },
+            {
+                  "name": "Impeachment of the President of India",
+                  "patterns": [
+                        "What is the procedure for impeaching the President of India?",
+                        "How many members of Parliament are required to sign a notice of motion for impeachment?",
+                        "What grounds need to be specified in the notice of motion for impeachment?",
+                        "What majority is required in Parliament for the motion of impeachment to pass?",
+                        "How does the process of impeachment uphold constitutional integrity and accountability?"
+                  ],
+                  "responses": [
+                        "The process of impeachment of the President of India involves a thorough and constitutionally mandated procedure. If there are allegations of constitutional violations by the President, a notice of motion signed by at least one-fourth of the total members of either House of Parliament must be presented, specifying the grounds of impeachment. Following this, the motion undergoes rigorous scrutiny, and if it is passed by a two-thirds majority of the total membership of the House, the President stands impeached. This process ensures accountability and upholds the principles of constitutional integrity and the rule of law."
+                  ]
+            },
+            {
+                  "name": "Independence of the judiciary",
+                  "patterns": [
+                        "How does the Indian Constitution ensure the independence of the judiciary?",
+                        "What are some provisions that safeguard the security of tenure for judges?",
+                        "How do fixed salaries contribute to the independence of the judiciary?",
+                        "What is the significance of immunities granted to judges?",
+                        "How does the power of judicial review help maintain the integrity of the Constitution?"
+                  ],
+                  "responses": [
+                        "The Indian Constitution safeguards the independence of the judiciary through various provisions. These include security of tenure, ensuring that judges cannot be easily removed from office, fixed salaries to prevent undue influence, and immunities that protect judges from external pressures. Additionally, the judiciary holds the crucial power of judicial review, enabling it to examine the constitutionality of laws and actions taken by the executive branch. This power ensures that laws and executive actions adhere to the principles and values enshrined in the Constitution, thus serving as a check on potential violations of fundamental rights and the rule of law."
+                  ]
+            },
+            {
+                  "name": "issues of environmental protection and conservation",
+                  "patterns": [
+                        "How does the Indian Constitution address environmental protection and conservation?",
+                        "What are the key principles of state policy related to environmental sustainability?",
+                        "How do fundamental duties promote environmental consciousness among citizens?",
+                        "What role do judicial interpretations play in shaping environmental laws and policies?",
+                        "Can you provide examples of specific measures outlined in the Constitution for pollution control and wildlife protection?"
+                  ],
+                  "responses": [
+                        "The Indian Constitution embeds a comprehensive framework for environmental protection and conservation, integrating directives and principles of state policy, fundamental duties, and judicial interpretations. It underscores the importance of sustainable development by balancing economic growth with environmental concerns. Provisions for pollution control aim to mitigate environmental degradation, while measures for the protection of wildlife and forests safeguard biodiversity and ecological balance. Through its directives, the Constitution guides the state in formulating policies conducive to environmental sustainability, reflecting a commitment to intergenerational equity and environmental stewardship."
+                  ]
+            },
+            {
+                  "name": "Juvenile Justice Act in India",
+                  "patterns": [
+                        "What is the purpose of the Juvenile Justice Act of 2015?",
+                        "How does the Act prioritize the welfare of children in conflict with the law?",
+                        "What are some key aspects of care and protection provided under the Act?",
+                        "Why is it important to emphasize the rights and best interests of juvenile offenders?",
+                        "How does the Act differ from traditional approaches to juvenile justice?"
+                  ],
+                  "responses": [
+                               "The Juvenile Justice Act of 2015 is a legislative framework designed to ensure the welfare of children who come into conflict with the law. It prioritizes the care, protection, and rehabilitation of such children, emphasizing their rights and best interests. The Act aims to provide a supportive environment for juvenile offenders, steering them away from further criminal behavior and facilitating their reintegration into society. By focusing on rehabilitation rather than punishment, the Act aligns with principles of child rights and seeks to address the underlying causes of juvenile delinquency."
+                  ]
+            },
+            {
+                  "name": "National Commission for Minorities",
+                  "patterns": [
+                        "What is the role of the National Commission for Minorities in India?",
+                        "How does the Commission safeguard the rights of religious and linguistic minorities?",
+                        "What types of complaints does the Commission investigate?",
+                        "Can you provide examples of measures recommended by the Commission for the welfare of minorities?",
+                        "Why is it important to have a statutory body dedicated to protecting minority rights?"
+                  ],
+                  "responses": [
+                        "The National Commission for Minorities is a government-appointed body with statutory authority aimed at protecting the rights and interests of religious and linguistic minorities in India. Established to ensure equality and prevent discrimination, the Commission investigates complaints of bias or injustice against minorities and suggests remedial measures for their welfare. By providing a platform for minority communities to voice their concerns and grievances, the Commission plays a crucial role in promoting inclusivity and social harmony in the country."
+                  ]
+            },
+            {
+                  "name": "National Human Rights Commission (NHRC) in India",
+                  "patterns": [
+                        "What is the purpose of the National Human Rights Commission (NHRC)?",
+                        "How does the NHRC promote and protect human rights in India?",
+                        "What authority does the NHRC have in investigating complaints of human rights violations?",
+                        "Can you give examples of the types of human rights violations that the NHRC addresses?",
+                        "Why is it important to have an autonomous body like the NHRC dedicated to protecting human rights?",
+                        "NHRC"
+                  ],
+                  "responses": [
+                        "The National Human Rights Commission (NHRC) is a vital institution in India, operating independently under the Protection of Human Rights Act, 1993. Its primary mandate is to uphold and safeguard human rights across the country. The NHRC plays a crucial role in investigating complaints of human rights violations, ensuring accountability, and recommending appropriate remedial actions to the government. By providing a platform for citizens to seek redress for human rights abuses, the NHRC contributes significantly to promoting a culture of respect for human dignity and justice in India."
+                  ]
+            },
+            {
+                  "name": "NCSC and NCST",
+                  "patterns": [
+                        "What are the roles and responsibilities of the National Commission for Scheduled Castes and the National Commission for Scheduled Tribes?",
+                        "How do these commissions safeguard the rights and interests of Scheduled Castes and Scheduled Tribes?",
+                        "What types of complaints do the commissions typically investigate?",
+                        "Can you provide examples of measures recommended by these commissions for the welfare of marginalized communities?",
+                        "Why are the NCSC and NCST considered important institutions in addressing social inequalities?",
+                        "NCSC and NCST"
+                  ],
+                  "responses": [
+                        "The National Commission for Scheduled Castes (NCSC) and the National Commission for Scheduled Tribes (NCST) are constitutional bodies entrusted with the task of protecting and advancing the rights and interests of Scheduled Castes and Scheduled Tribes, respectively. Established to address historical injustices and social inequalities, these commissions investigate complaints of discrimination and recommend measures to promote the welfare and development of marginalized communities. By providing a platform for grievances to be heard and acted upon, the NCSC and NCST play a crucial role in ensuring social justice, inclusivity, and empowerment for Scheduled Castes and Scheduled Tribes in India."
+                  ]
+            },
+            {
+                  "name": "National Commission for Women (NCW)",
+                  "patterns": [
+                        "What is the purpose of the National Commission for Women (NCW)?",
+                        "How does the NCW work to protect the rights of women in India?",
+                        "What types of complaints does the NCW investigate?",
+                        "Can you provide examples of measures recommended by the NCW to enhance the welfare of women?",
+                        "Why is the NCW considered an important institution in advancing gender equality?",
+                        "National Commission for Women (NCW)",
+                        "NCW"
+                  ],
+                  "responses": [
+                        "The National Commission for Women (NCW) is a statutory body formed under the National Commission for Women Act, 1990, aimed at advocating for and safeguarding the rights of women in India. Its mandate includes investigating complaints related to gender-based discrimination and suggesting measures to improve the welfare of women. By addressing issues such as domestic violence, gender inequality, and harassment, the NCW plays a pivotal role in promoting gender equality and empowering women across the country."
+                  ]
+            },
+            {
+                  "name": "Official language of the Indian Union",
+                  "patterns": [
+                        "What are the official languages of the Indian Union?",
+                        "How is Hindi utilized as the primary official language?",
+                        "What role does English play in the administration of the Indian Union?",
+                        "How does the use of Hindi and English reflect India's linguistic diversity?",
+                        "Why is it important for a country like India to have a dual-language policy?"
+                  ],
+                  "responses": [
+                        "The Indian Union recognizes Hindi and English as its official languages, with Hindi written in the Devanagari script serving as the primary official language. While English holds a significant role in administration and communication, especially at the national level, Hindi enjoys prominence as the language of governance and education in many states. This dual-language policy reflects India's linguistic diversity and aims to balance the needs of different linguistic communities while fostering national unity and communication across regions."
+                  ]
+            },
+            {
+                  "name": "parts of the Indian Constitution",
+                  "patterns": [
+                        "How many parts is the Indian Constitution divided into, and what is the significance of this division?",
+                        "Can you provide examples of topics covered in different parts of the Constitution?",
+                        "What are directive principles of state policy, and in which part of the Constitution are they mentioned?",
+                        "parts of indian constitution",
+                        "How does the division of the Constitution into parts help in understanding India's governance structure?"
+                  ],
+                  "responses": [
+                        "The Indian Constitution is a comprehensive document divided into 25 parts, each addressing various aspects of governance, rights, and duties. These parts cover a wide range of topics, including fundamental rights, directive principles of state policy, the structure of government, and the powers and functions of different institutions. The division of the Constitution into parts allows for a systematic organization of its provisions, enabling a clear understanding of the rights, responsibilities, and structures that govern India.\nPart I: The Union and its Territory: This part defines the territory of India and establishes the Union of India.\nPart II: Citizenship: It deals with the acquisition and termination of Indian citizenship.\nPart III: Fundamental Rights: This part guarantees certain fundamental rights to Indian citizens, such as the right to equality, right to freedom, right against exploitation, right to freedom of religion, cultural and educational rights, and right to constitutional remedies.Part IV: Directive Principles of State Policy: It lays down the guidelines for the government to implement policies and laws to achieve socioeconomic justice and equality.\nPart IVA: Fundamental Duties: This part specifies the fundamental duties of Indian citizens towards the nation.\nPart V: The Union: It outlines the structure, powers, and functions of the central government.\n Part VI: The States: This part deals with the structure, powers, and functions of the state governments.\nPart VII: The States in Part B of the First Schedule (Repealed): This part dealt with certain princely states that were integrated into India after independence and has been repealed.\nPart VIII: The Union Territories: It addresses the administration of union territories.\nPart IX: The Panchayats: This part deals with the institution of Panchayats and their powers and functions.\nPart IXA: The Municipalities: It addresses the institution of municipalities and their powers and functions.\nPart X: The Scheduled and Tribal Areas: This part provides for the administration of scheduled and tribal areas.\n Part XI: Relations between the Union and the States: It outlines the distribution of legislative, executive, and financial powers between the Union and the States.\nPart XII: Finance, Property, Contracts, and Suits: This part deals with financial matters, including taxation, borrowing, and distribution of revenues between the Union and the States.\nPart XIII: Trade and Commerce within the Territory of India: It addresses trade and commerce regulations within India.\nPart XIV: Services under the Union and the States: This part deals with the services under the Union and the States.\nPart XIVA: Tribunals: It provides for the adjudication of disputes and complaints through administrative tribunals.\nPart XV: Elections: This part deals with elections to the Parliament, state legislatures, and the offices of the President and Vice-President.\nPart XVI: Special Provisions Relating to Certain Classes: It provides for special provisions relating to certain classes, including Anglo-Indian representation in the Lok Sabha.\nPart XVII: Official Language: This part deals with the official language of India.\nPart XVIII: Emergency Provisions: It outlines the provisions related to the declaration and effects of emergencies.\nPart XIX: Miscellaneous: This part contains miscellaneous provisions not covered elsewhere in the Constitution.\nPart XX: Amendment of the Constitution: It provides for the procedure of amending the Constitution.\nPart XXI: Temporary, Transitional, and Special Provisions: This part contains temporary, transitional, and special provisions.\nPart XXII: Short Title, Commencement, Authoritative Text in Hindi and Repeals: It provides the short title, commencement, authoritative text in Hindi, and repeals certain laws.\nPart XXIII: Scheduled Castes: This part deals with the administration of scheduled areas and scheduled tribes in several states.\nPart XXIV: Scheduled Tribes: It addresses the administration of scheduled tribes in several states.\nPart XXV: Tribal Areas in Assam: This part provides for the administration of tribal areas in Assam."
+                  ]
+            }
+      ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
